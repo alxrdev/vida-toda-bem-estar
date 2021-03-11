@@ -89,4 +89,10 @@ export default {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 310px) {
+  .link--large {
+    font-size: .80rem;
+  }
+}
 </style>

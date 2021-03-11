@@ -57,7 +57,7 @@ export default {
 .hero__container .hero__container__left {
   align-items: flex-end;
 
-  margin-top: 95px;
+  margin-top: 80px;
 }
 
 .hero__container .hero__container__right {
@@ -79,8 +79,6 @@ export default {
 
 @media (max-width: 768px) {
   .hero__container {
-    top: 30vh;
-
     display: block;
   }
 

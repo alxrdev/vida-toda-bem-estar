@@ -58,10 +58,18 @@ export default {
 }
 
 .consultoria-section__container {
-  padding: var(--default-padding);
+  padding: .4rem var(--default-padding) 1.8rem var(--default-padding);
 
   background-color: var(--blue);
   color: var(--white);
+}
+
+.consultoria-section__title {
+  margin-bottom: 30px;
+}
+
+.consultoria-section__text {
+  margin-bottom: 30px;
 }
 
 .consultoria-section .consultoria-section__cta {
