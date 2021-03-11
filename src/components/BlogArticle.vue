@@ -44,7 +44,7 @@ export default {
   width: 100%;
 }
 
-.article .article__container {
+.article__container {
   position: relative;
   
   display: flex;
@@ -56,7 +56,7 @@ export default {
   border: 3px solid var(--blue);
 }
 
-.article .article__image {
+.article__image {
   width: 100%;
   max-height: 250px;
 
@@ -64,22 +64,22 @@ export default {
   contain: content;
 }
 
-.article .article__image img {
+.article__image img {
   width: 100%;
 }
 
-.article .article__heading {
+.article__heading {
   margin: 0;
   padding: var(--default-padding);
   padding-bottom: 10px;
 }
 
-.article .article__text {
+.article__text {
   padding: var(--default-padding);
   padding-top: 0;
 }
 
-.article .article__footer {
+.article__footer {
   padding: var(--default-padding);
   padding-bottom: 30px;
 

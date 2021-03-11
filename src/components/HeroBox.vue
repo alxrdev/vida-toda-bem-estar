@@ -36,7 +36,7 @@ export default {
   margin: 30px 0;
 }
 
-.hero-box__title .hero-box__title--top {
+.hero-box__title--top {
   display: block;
 
   margin-bottom: -5px;
@@ -46,7 +46,7 @@ export default {
   line-height: 100%;
 }
 
-.hero-box__title .hero-box__title--bottom {
+.hero-box__title--bottom {
   font-size: 5.6rem;
   font-weight: 800;
   line-height: 1.1;
@@ -67,11 +67,11 @@ export default {
 }
 
 @media (max-width: 960px) {
-  .hero-box__title .hero-box__title--top {
+  .hero-box__title--top {
     font-size: 1.4rem;
   }
 
-  .hero-box__title .hero-box__title--bottom {
+  .hero-box__title--bottom {
     font-size: 4rem;
   }
 }
@@ -81,25 +81,25 @@ export default {
     max-width: 320px;
   }
   
-  .hero-box__title .hero-box__title--top {
+  .hero-box__title--top {
     font-size: 1.25rem;
   }
 
-  .hero-box__title .hero-box__title--bottom {
+  .hero-box__title--bottom {
     font-size: 3.6rem;
   }
 }
 
-@media (max-width: 310px) {
+@media (max-width: 338px) {
   .hero-box__text {
     font-size: 1.2rem;
   }
 
-  .hero-box__title .hero-box__title--top {
+  .hero-box__title--top {
     font-size: 1rem;
   }
 
-  .hero-box__title .hero-box__title--bottom {
+  .hero-box__title--bottom {
     font-size: 3rem;
   }
 }

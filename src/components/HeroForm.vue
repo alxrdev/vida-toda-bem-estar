@@ -63,7 +63,7 @@ export default {
   margin-bottom: 30px;
 }
 
-.hero-form .hero-form__cta {
+.hero-form__cta {
   width: 100%;
   margin-top: 30px;
 

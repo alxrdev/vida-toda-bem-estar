@@ -48,19 +48,19 @@ export default {
   margin: 0 auto;
 }
 
-.hero__container .hero__container__left,
-.hero__container .hero__container__right {
+.hero__container__left,
+.hero__container__right {
   display: flex;
   flex-direction: column;
 }
 
-.hero__container .hero__container__left {
+.hero__container__left {
   align-items: flex-end;
 
   margin-top: 80px;
 }
 
-.hero__container .hero__container__right {
+.hero__container__right {
   align-items: flex-start;
 
   margin-top: 390px;
@@ -72,7 +72,7 @@ export default {
     margin-top: -480px;
   }
 
-  .hero__container .hero__container__right {
+  .hero__container__right {
     margin-top: 320px;
   }
 }
@@ -82,11 +82,11 @@ export default {
     display: block;
   }
 
-  .hero__container .hero__container__left {
+  .hero__container__left {
     align-items: center;
   }
 
-  .hero__container .hero__container__right {
+  .hero__container__right {
     display: none;
   }
 }
